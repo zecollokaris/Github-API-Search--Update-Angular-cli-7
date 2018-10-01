@@ -1,11 +1,26 @@
-<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+<nav col class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><li>
+                <img id="anim" src="assets/images/duck.gif" alt="github image" height="80" width="80" style=" margin-top: -17%;">
+            </li></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><form><div class="form-group"><input type="text" style="margin-top: 5%; width: 130%; height: 15%;background-color: rgb(70, 68, 68); border: none; color: ghostwhite;" class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus  " placeholder="search or jump to" [(ngModel)]="username" name="username"  (keyup.Enter)="search()"></div></form></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+
 
 <!-- ENd of font links -->
 <div id="git">
