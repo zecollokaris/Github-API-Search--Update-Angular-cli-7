@@ -1,0 +1,88 @@
+.searchbar {
+  padding-top: 7%;
+}
+
+.panel-heading {
+  color: blue;
+  font-family: 'Ultra', serif;
+  font-size: 20px;
+}
+
+.btn-sm{
+  font-size: 30px;
+  margin-left: 40%;
+  font-family: 'Slackey', cursive;
+}
+
+.btn-sm:hover {
+  border-radius: 5px;
+  box-shadow: 35px 55px 45px #666;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -webkit-transition: .5s;
+  opacity: .50;
+  height: 45;
+}
+
+.label-primary {
+  background-color: #2682B5;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.label-success {
+  background-color: #8AC926;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+  
+}
+
+.label-default {
+  background-color: #50595E;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.btn-warning {
+  background-color: #8AC926;
+  font-size: 15px;
+  font-family: 'Black Ops One', cursive;
+  margin-left: 2%;
+}
+
+.btn-warning:hover {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #666;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -webkit-transition: .5s;
+  opacity: .50;
+  
+}
+
+
+#git{
+margin-left: 30%;
+}
+
+.searchbar {
+margin-top: -5%;
+}
+
+.imgs{
+  margin-left: 40%;
+  margin-top: 20%;
+  margin-left: 55%;
+}
+
+.clearfix {
+  font-size: 25px;
+  font-family: 'Freckle Face', cursive;
+}
+.descrip {
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+}

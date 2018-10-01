@@ -1,0 +1,74 @@
+<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+
+<!-- ENd of font links -->
+<div id="git">
+<img id="anim" src="assets/images/githubanim.png" alt="github image" height="200" width="450">
+</div>
+<form action="" class="searchbar">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search Users" [(ngModel)]="username" name="username" (keyup)="findProfile()">
+
+
+  </div>
+</form>
+<div *ngIf="profile">
+  <div class="panel panel-default">
+
+    <div class="panel-heading">
+      {{profile.name}} {{profile.login}}
+      <span *ngIf="">Works at {{profile.company}}</span> {{profile.location}}
+    </div>
+
+    <div class="panel-body">
+
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Profile Image" height="350" width="335">
+        </div>
+        <div class="col-sm-5">
+          <ul class="list-group">
+            <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
+            <li class="list-group-item" *ngIf="profile.blog"><a href="{{profile.blog}}" target="_blank">{{profile.blog}}</a></li>
+            <li class="list-group-item" *ngIf="profile.email"><a href="emailto:{{profile.email}}">{{profile.email}}</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p>
+            <span class="label label-default">{{profile.followers}} Followers</span>
+            <span class="label label-primary">{{profile.following}} Following</span>
+            <span class="label label-success">{{profile.public_gists}} Public gists</span>
+          </p>
+
+          <p><a href="{{profile.html_url}}" class="btn btn-success btn-sm">View Profile On Github!</a></p>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Repositories!</h3>
+            </div>
+            <div class="panel-body" *ngFor="let repo of repos">
+              <p class="clearfix">
+                <strong>&diams; {{repo.name}}<p style="font-size30"></strong><br> <a href="{{repo.html_url}}" class="btn btn-sm btn-warning ">View This Project On Github</a>
+              </p>
+              <p class="descrip">{{repo.description}}</p>
+            </div> 
+          </div>
+
+          <div class="imgs">
+            <img id="cart" src="assets/images/github.png" alt="github image" height="60" width="80">
+            <img id="cart" src="assets/images/GitIcon.png" alt="github image" height="60" width="80">
+            <img id="cart" src="assets/images/Octogit.png" alt="github image" height="60" width="80">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
