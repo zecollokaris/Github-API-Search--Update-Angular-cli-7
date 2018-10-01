@@ -7,13 +7,15 @@
 
 <nav  class="navbar navbar-inverse navbar-fixed-top" style="height: 7%;">
     <div class="container">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-        aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+            aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
         <div id="navbar" class="collapse navbar-collapse">
             <a style="list-style: none;" class="navbar-brand" href="#">
               <li>
@@ -21,7 +23,8 @@
               </li>
             </a>
 
-            <ul class="navbar-nav">
+            <ul class="navbar-nav"class="collapse navbar-collapse">
+
                 <li><form action=""><div class="form-group"><input type="text" style="margin-top: 7%;  width: 130%; height: 15%;background-color: rgb(70, 68, 68); border: none; color: ghostwhite;" class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus  " placeholder="search or jump to" [(ngModel)]="username" name="username"  (keyup.Enter)="findProfile()"></div></form></li>
             </ul>
         </div>
@@ -35,7 +38,7 @@
 <!-- Content Section -->
 
 <div *ngIf="profile">
-  <div class="panel panel-default">
+  <div style="margin-top: 10%;" class="panel panel-default">
 
     <div class="panel-heading">
       {{profile.name}} {{profile.login}}
