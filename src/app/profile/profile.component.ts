@@ -19,7 +19,7 @@ export class ProfileComponent implements OnInit {
     this.ProfileService.getProfileRepos().subscribe(repos => {
       console.log(repos);
       this.repos = repos;
-    })
+    });
 
 
   }
@@ -33,14 +33,10 @@ export class ProfileComponent implements OnInit {
     this.ProfileService.getProfileRepos().subscribe(repos => {
       console.log(repos);
       this.repos = repos;
-    })
+    });
   }
 
   ngOnInit() {
-
-
-
-    
 
   }
 
