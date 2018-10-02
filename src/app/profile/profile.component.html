@@ -35,8 +35,9 @@
 <!--/.nav-collapse -->
 
 
-<!-- Content Section -->
+<!-- CONTENT SECTION -->
 
+<!-- Profile And Location On Panel -->
 <div *ngIf="profile">
   <div style="margin-top: 10%;" class="panel panel-default">
 
@@ -44,7 +45,10 @@
         <h1>{{profile.login}}</h1>
       <span *ngIf="">Works at {{profile.company}}</span> {{profile.location}}
     </div>
+<!-- Collapse Profile And Location On Panel -->
 
+
+<!--  -->
     <div class="panel-body">
 
       <div class="row">
@@ -53,24 +57,14 @@
         </div>
         <div class="col-md-8">
           <div class="start">
-<span class="label label-default">{{profile.public_repos}} Public Repos</span>
-<span class="label label-primary">{{profile.public_gist}} Public Gist</span>
-<span class="label label-success">{{profile.followers}} Public Gist</span>
-
-            <span class="label label-primary" *ngIf="profile.blog"><a href="{{profile.blog}}" target="_blank">{{profile.blog}}</a></span>
-            <span class="label label-success" *ngIf="profile.email"><a href="emailto:{{profile.email}}">{{profile.email}}</a></span>
-<span class="label label-info" ></span>
-            
+              <span class="label label-default">{{profile.public_repos}} Public Repos</span>
+              <span class="label label-primary">{{profile.public_gist}} Public Gist</span>
+              <span class="label label-success">{{profile.followers}} Followers</span>
+              <span class="label label-info">{{profile.following}} Following</span>
           </div>
         </div>
 
         <div>
-          <p>
-            <span class="label label-default">{{profile.followers}} Followers</span>
-            <span class="label label-primary">{{profile.following}} Following</span>
-            <span class="label label-success">{{profile.public_gists}} Public gists</span>
-          </p>
-
           <p><a href="{{profile.html_url}}" class="btn btn-success btn-sm">View Profile On Github!</a></p>
           <div class="panel panel-default">
             <div class="panel-heading">
