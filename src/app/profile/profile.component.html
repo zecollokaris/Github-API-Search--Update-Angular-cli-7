@@ -51,12 +51,17 @@
         <div class="col-md-4">
           <img src="{{profile.avatar_url}}" class="img-thumbnail github-avatar" alt="Profile Image">
         </div>
-        <div class="col-sm-5">
-          <ul class="list-group">
-            <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
-            <li class="list-group-item" *ngIf="profile.blog"><a href="{{profile.blog}}" target="_blank">{{profile.blog}}</a></li>
-            <li class="list-group-item" *ngIf="profile.email"><a href="emailto:{{profile.email}}">{{profile.email}}</a></li>
-          </ul>
+        <div class="col-md-8">
+          <div class="start">
+<span class="label label-default">{{profile.public_repos}} Public Repos</span>
+<span class="label label-primary">{{profile.public_gist}} Public Gist</span>
+<span class="label label-success">{{profile.followers}} Public Gist</span>
+
+            <span class="label label-primary" *ngIf="profile.blog"><a href="{{profile.blog}}" target="_blank">{{profile.blog}}</a></span>
+            <span class="label label-success" *ngIf="profile.email"><a href="emailto:{{profile.email}}">{{profile.email}}</a></span>
+<span class="label label-info" ></span>
+            
+          </div>
         </div>
 
         <div>
