@@ -41,15 +41,15 @@
   <div style="margin-top: 10%;" class="panel panel-default">
 
     <div class="panel-heading">
-      {{profile.name}} {{profile.login}}
+        <h1>{{profile.login}}</h1>
       <span *ngIf="">Works at {{profile.company}}</span> {{profile.location}}
     </div>
 
     <div class="panel-body">
 
       <div class="row">
-        <div class="col-sm-3">
-          <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Profile Image" height="350" width="335">
+        <div class="col-md-4">
+          <img src="{{profile.avatar_url}}" class="img-thumbnail github-avatar" alt="Profile Image">
         </div>
         <div class="col-sm-5">
           <ul class="list-group">
