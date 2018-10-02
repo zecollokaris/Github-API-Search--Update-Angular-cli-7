@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http, Headers } from '@angular/http';
-import 'rxjs/add/operator/map';
+import { map } from 'rxjs/operators';
 
 @Injectable()
 export class ProfileService {
@@ -16,16 +16,18 @@ export class ProfileService {
   }
 
   getProfileInfo() {
+    interface ApiResponse {
+      login: string;
+    }
     // tslint:disable-next-line:max-line-length
     return this.http.get('https://api.github.com/users/' + this.username + '?client_id=' + this.clientid + '&client_secret=' + this.clientsecret)
-      .map(res => res.json());
-
+     .pipe(map(res => res.json()));
   }
 
   getProfileRepos() {
     // tslint:disable-next-line:max-line-length
     return this.http.get('https://api.github.com/users/' + this.username + '/repos?client_id=' + this.clientid + '&client_secret=' + this.clientsecret)
-      .map(res => res.json());
+      .pipe(map(res => res.json()));
   }
 
   updateProfile(username: string) {

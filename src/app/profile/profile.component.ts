@@ -7,16 +7,27 @@ import { ProfileService } from '../services/profile.service';
   styleUrls: ['./profile.component.scss']
 })
 export class ProfileComponent implements OnInit {
-  profile: any[];
+  profile = { login: '',
+    company: '',
+    location: '',
+    avatar_url: '',
+    public_repos: '',
+    public_gist: '',
+    followers: '',
+    following: '',
+    email: '',
+    bio: '',
+    created_at: ''};
   repos: any[];
   username: string;
 
-  constructor(private ProfileService: ProfileService) {
-    this.ProfileService.getProfileInfo().subscribe(profile => {
+
+  constructor(private service: ProfileService) {
+    this.service.getProfileInfo().subscribe(profile => {
       console.log(profile);
       this.profile = profile;
     });
-    this.ProfileService.getProfileRepos().subscribe(repos => {
+    this.service.getProfileRepos().subscribe(repos => {
       console.log(repos);
       this.repos = repos;
     });
@@ -25,12 +36,12 @@ export class ProfileComponent implements OnInit {
   }
 
   findProfile() {
-    this.ProfileService.updateProfile(this.username);
-    this.ProfileService.getProfileInfo().subscribe(profile => {
+    this.service.updateProfile(this.username);
+    this.service.getProfileInfo().subscribe(profile => {
       console.log(profile);
       this.profile = profile;
     });
-    this.ProfileService.getProfileRepos().subscribe(repos => {
+    this.service.getProfileRepos().subscribe(repos => {
       console.log(repos);
       this.repos = repos;
     });
