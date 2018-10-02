@@ -61,12 +61,27 @@
               <span class="label label-primary">{{profile.public_gist}} Public Gist</span>
               <span class="label label-success">{{profile.followers}} Followers</span>
               <span class="label label-info">{{profile.following}} Following</span>
+              <br>
+
+          <!-- Content With User-info -->
+
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Username:</strong> {{profile.login}}</li>
+                <li class="list-group-item"><strong>Location:</strong> {{profile.location}}</li>
+                <li class="list-group-item"><strong>Email:</strong> {{profile.email}}</li>
+                <li class="list-group-item"><strong>Bio:</strong> {{profile.bio}}</li>
+                <li class="list-group-item"><strong>Member Since:</strong> {{profile.created_at}}</li>
+            </ul>
+
+          <!-- Collapse Content With User-info -->
+
           </div>
         </div>
+
 <!--Collapse following, public gist, Followers, Following -->
 
 
-        <div>
+
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Repositories!</h3>
@@ -84,7 +99,7 @@
             <img id="cart" src="assets/images/GitIcon.png" alt="github image" height="60" width="80">
             <img id="cart" src="assets/images/Octogit.png" alt="github image" height="60" width="80">
           </div>
-        </div>
+
 
       </div>
 
