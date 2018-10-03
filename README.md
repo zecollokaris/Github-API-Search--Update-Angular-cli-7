@@ -37,4 +37,15 @@ This include the following mentioned however below however if you dont have the 
 
 You can check out the link below for installation instructions!
 
+Link~  ```https://github.com/zecollokaris/Installation```
 
+
+- Node.js
+
+- Angular-JS framework
+
+- Watchman
+
+- Typescript
+
+- Terminal
