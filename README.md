@@ -20,3 +20,5 @@ This is a website where users may enter a GitHub username into a form, submit it
 GitHub API was used to retrieve this information. This API allows ***5,000*** requests per hour with an API key, but only 60 requests per hour _without_ one.
 
 ## User Story
+
+- Users can enter Github user info info a form and submit it.
