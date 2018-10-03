@@ -22,3 +22,5 @@ GitHub API was used to retrieve this information. This API allows ***5,000*** re
 ## User Story
 
 - Users can enter Github user info info a form and submit it.
+
+- Users can see names and descriptions of person's public repositories.
