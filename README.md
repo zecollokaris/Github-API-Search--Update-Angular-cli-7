@@ -63,3 +63,7 @@ If you dont have this requirements you could use the link above to help with the
 3. To get to use **GIT-SEARCH** fist you need to get to the Github-API-Search--Update-Angular-cli-7 repository. 
 
 Link:-> ```https://github.com/zecollokaris/Github-API-Search--Update-Angular-cli-7```
+
+4. From there you can access Git-search.
+
+5. **Clone** the project.
