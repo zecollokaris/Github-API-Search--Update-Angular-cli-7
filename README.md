@@ -13,8 +13,6 @@
 #### [Checkout Deployed Site At](https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/)
 
 
--> https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/
-
 # DISPLAY
 
 ![](Spec.md/GithubSearch.png)
