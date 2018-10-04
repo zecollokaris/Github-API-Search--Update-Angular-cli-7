@@ -110,6 +110,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 App was deployed to [Github Pages](https://pages.github.com/) using Angular Cli, by publishing the **dist/** folder.
 
+Link to Deployed [Github Search](https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/)
+
+
+```
+https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/
+```
+
 ## Support and Contact
 ---
 
