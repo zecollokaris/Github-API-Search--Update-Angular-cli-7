@@ -94,3 +94,7 @@ http://localhost:4200/
 2. Type Script
 
 3. Javascript
+
+4. Bootstrap
+
+5. CSS
