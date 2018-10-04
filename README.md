@@ -107,8 +107,3 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Support and Contact
 ---
 
--Mobile number: (+254) 798731203
-
--Email Address: collo.kariss@gmail.com
-
--github-username: zecollokaris
