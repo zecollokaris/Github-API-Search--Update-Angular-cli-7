@@ -1,6 +1,6 @@
 # Github-API-Search--Update-Angular-cli-7
 
-## This app is called [Github Search](https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/).
+## This app is called [Github Search:mag:](https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/).
 
 ### **This project was done using ANGULAR-Cli Version 7.** 
 
@@ -10,7 +10,7 @@
 
 -> ```https://github.com/zecollokaris/Github-API-Search-AngularJS```
 
-#### [Checkout Deployed Site At](https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/)
+#### [Checkout Deployed Site At] :mag:(https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/)
 
 
 # DISPLAY
@@ -19,7 +19,7 @@
 
 # DESCRIPTION
 
-This is a **Github Search** application that searches for user and displays their profile info using the ***Github API.***
+This is a **Github Search :mag:** application that searches for user and displays their profile info using the ***Github API.***
 
 This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. 
 
@@ -113,7 +113,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 App was deployed to [Github Pages](https://pages.github.com/) using Angular Cli, by publishing the **dist/** folder.
 
-Link to Deployed [Github Search](https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/)
+Link to Deployed [Github Search:mag:](https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/)
 
 
 ```
