@@ -104,3 +104,11 @@ http://localhost:4200/
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Support and Contact
+---
+
+-Mobile number: (+254) 798731203
+
+-Email Address: collo.kariss@gmail.com
+
+-github-username: zecollokaris
