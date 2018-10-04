@@ -67,3 +67,21 @@ Link:-> ```https://github.com/zecollokaris/Github-API-Search--Update-Angular-cli
 4. From there you can access Git-search.
 
 5. **Clone** the project.
+
+6. Once you done with cloning and project is on your device.
+
+7. get into project folder (cd into project).
+
+8. On your **bash** terminal Run the command:- 
+
+```
+ng serve
+```
+
+9. Open your prefered **web browser** and load it on local host:
+
+```
+http://localhost:4200/
+```
+
+10. This will load for you Github Search as long as your requirements are satisfied.
