@@ -115,3 +115,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## License
 ---
+
+The app is licensed by MIT.
+
+MIT (c) 2018
