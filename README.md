@@ -10,7 +10,7 @@
 
 -> ```https://github.com/zecollokaris/Github-API-Search-AngularJS```
 
-#### [Checkout Deployed Site At :mag:] (https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/)
+#### [Checkout Deployed Site At :mag:](https://zecollokaris.github.io/Github-API-Search--Update-Angular-cli-7/)
 
 
 # DISPLAY
