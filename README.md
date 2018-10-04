@@ -86,3 +86,11 @@ http://localhost:4200/
 
 10. This will load for you Github Search as long as your requirements are satisfied.
 
+
+# TECHNOLOGIES USED
+
+1. Angular Version7 (Framework)
+
+2. Type Script
+
+3. Javascript
