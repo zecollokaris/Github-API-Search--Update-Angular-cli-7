@@ -57,3 +57,9 @@ If you dont have this requirements you could use the link above to help with the
 ### **To work With Github Search**
 
 1. You will need Internet connection.
+
+2. You will also need a Webpage URL to load in URL's:
+
+3. To get to use **GIT-SEARCH** fist you need to get to the Github-API-Search--Update-Angular-cli-7 repository. 
+
+Link:-> ```https://github.com/zecollokaris/Github-API-Search--Update-Angular-cli-7```
