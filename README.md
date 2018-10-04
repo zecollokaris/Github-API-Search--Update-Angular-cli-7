@@ -12,7 +12,7 @@
 
 # DISPLAY
 
-![](Spec.md/GithubSeaerch.png)
+![](Spec.md/GithubSearch.png)
 
 # DESCRIPTION
 
